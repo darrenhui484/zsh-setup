@@ -19,6 +19,8 @@ plug "zsh-users/zsh-syntax-highlighting"
 
 source $HOME/.aliases.zsh
 
+zmodload zsh/complist
+
 setopt menucomplete
 
 # add menu-tabbing
